@@ -29,6 +29,16 @@ cd ..
 rm -rf LLaVA
 ```
 
+### 📚 Dataset
+
+We utilize the following datasets for training, validation, and evaluation:
+1. [MM-SafetyBench](https://huggingface.co/datasets/PKU-Alignment/MM-SafetyBench)
+2. [FigStep](https://github.com/ThuCCSLab/FigStep/tree/main?tab=readme-ov-file)
+3. [MM-Vet](https://huggingface.co/datasets/whyu/mm-vet)
+4. [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation)
+5. [LLaVa-Bench-in-the-Wild](https://huggingface.co/datasets/lmms-lab/llava-bench-in-the-wild)
+6. [VLGuard](https://huggingface.co/datasets/ys-zong/VLGuard)
+
 ### 🔧 Vector Construction
 
 > Run the following script to construct the harmfulness vector used for training supervision:
