@@ -112,7 +112,7 @@ if __name__ == "__main__":
                 records.append({
                     "file": filename,
                     "total": total,
-                    "asr": ratio
+                    "rsr": ratio
                 })
                 total_all += total
                 match_all += match
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     records.append({
         "file": "all",
         "total": total_all,
-        "asr": ratio_all,
+        "rsr": ratio_all,
     })
 
     df = pd.DataFrame(records)
