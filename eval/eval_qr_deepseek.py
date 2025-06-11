@@ -125,7 +125,7 @@ if __name__ == "__main__":
         records.append({
             "file": type,
             "total": type_total,
-            "asr": type_ratio,
+            "rsr": 1 - type_ratio,
         })
 
     records.sort(key=lambda x: x["file"])
@@ -137,7 +137,7 @@ if __name__ == "__main__":
     records.append({
         "file": "all",
         "total": total_all,
-        "asr": ratio_all,
+        "rsr": 1 - ratio_all,
     })
 
     df = pd.DataFrame(records)
