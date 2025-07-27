@@ -65,6 +65,6 @@ bash scripts/infer.sh
 
 ## 📊 Evaluation Results
 
-![pipeline](./assets/utility.png)
+![utility](./assets/utility.png)
 
-<img src="./assets/rsr.png" alt="pipeline" style="zoom: 80%;" />
+![rsr](./assets/rsr.png)
