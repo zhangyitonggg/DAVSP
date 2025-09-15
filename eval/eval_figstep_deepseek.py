@@ -93,8 +93,8 @@ def process_file(filepath):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process JSON files and calculate prefix match statistics.")
-    parser.add_argument("--directory_path", default="/home/zhangyt/defenseVisualPrompt/new-results/inf-figstep-ours-sample3-1200",type=str, help="Path to the directory containing JSON files.")
-    parser.add_argument("--result_path", default="/home/zhangyt/defenseVisualPrompt/eval-result/inf-figstep-ours-sample3-1200.csv", type=str, help="Path to save the resulting CSV file.")
+    parser.add_argument("--directory_path", default="",type=str, help="Path to the directory containing JSON files.")
+    parser.add_argument("--result_path", default="", type=str, help="Path to save the resulting CSV file.")
     args = parser.parse_args()
 
     directory_path = args.directory_path
