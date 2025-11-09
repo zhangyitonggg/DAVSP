@@ -1,6 +1,7 @@
 # DAVSP
 
 Offical implementation of our paper "DAVSP: Safety Alignment for Large Vision-Language Models via Deep Aligned Visual Safety Prompt".
+Official implementation of DAVSP in AAAI 2026 [paper](https://arxiv.org/pdf/2506.09353).
 
 ![pipeline](./assets/pipeline.png)
 
