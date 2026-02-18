@@ -1,4 +1,4 @@
-# DAVSP
+# DAVSP (AAAI oral presentation)
 
 Official implementation of DAVSP in AAAI 2026 [paper](https://arxiv.org/pdf/2506.09353).
 
